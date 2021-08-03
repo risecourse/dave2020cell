@@ -1,0 +1,23 @@
+load_proc("nrnmainmenu")
+
+tstop = 100
+
+
+create soma
+access soma
+
+objectvar syn
+proc init_cell() {
+    soma {
+	nseg = 1
+	diam = 174//100
+	L = 100
+    insert NMDAr
+    
+    }
+    
+
+}
+
+init_cell()
+xopen("double.ses")
