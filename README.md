@@ -14,7 +14,10 @@ To run this model, first compile the ion channel and synapse mechanisms.
 To launch the program from stand-alone NEURON software, in a bash terminal, enter:
     `nrngui mosinit66.hoc`
     
-Once the NEURON program launches, it will open several windows and control dialogs. Find the _RunControl_ and push _Init & Run_ to run the simulation and see results on the graph.
+Once the NEURON program launches, it will open several windows and control dialogs. 
+1. Find the small window with buttons for SINGLE, DOUBLE, and ALPHA. Click one of the buttons to select the synapse model type
+2. Find the **RunControl** panel and push **Init & Run** to run the simulation and see results on the graph.
+3. In the upper left corner of the graph window, click the square to show a menu and then select View > View = Plot to zoom into the plotted results
 
 
 ### NEURON+Python in Spyder
